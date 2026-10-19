@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+  <defs><linearGradient id="wall" x2="1" y2="1"><stop stop-color="#f1ede5"/><stop offset="1" stop-color="#e3dfd5"/></linearGradient>
+  <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#c6c2b7"/><stop offset="1" stop-color="#a99d8a"/></linearGradient>
+  <radialGradient id="light" cx="0.1" cy="0.08"><stop stop-color="#fff8e8" stop-opacity=".7"/><stop offset="1" stop-color="#fff8e8" stop-opacity="0"/></radialGradient>
+  <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.48" numOctaves="3" seed="7" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.045"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#wall)"/><path d="M0 0h1600v640H0z" fill="url(#wall)"/>
+  <path d="M0 600L1600 585V1000H0Z" fill="url(#floor)"/><path d="M0 598L1600 584" stroke="#f7f5ec" stroke-width="20"/>
+  <rect x="150" y="90" width="360" height="490" fill="#a7b0a1" opacity=".38"/><rect x="168" y="105" width="324" height="460" fill="#f5f0e4" opacity=".75"/><path d="M330 105V565M168 338H492" stroke="#756f61" stroke-width="8" opacity=".3"/>
+  <path d="M770 590L300 1000M1000 590L1080 1000M1240 588L1560 1000M0 720L1600 695M0 850L1600 830" stroke="#eee8dc" stroke-width="5" opacity=".38"/>
+  <rect width="1600" height="1000" fill="url(#light)"/>
+  <ellipse cx="965" cy="735" rx="350" ry="62" fill="#352d25" opacity=".13"/>
+    <path d="M660 540 Q660 510 697 510 H1215 Q1258 510 1258 551 V655 Q1258 690 1215 690 H700 Q657 690 657 649 Z" fill="#d5c8b4"/>
+    <rect x="685" y="495" width="538" height="132" rx="37" fill="#e7d9c5"/>
+    <rect x="727" y="466" width="180" height="155" rx="28" fill="#ecdfcb"/>
+    <rect x="918" y="466" width="249" height="155" rx="28" fill="#e1d1bd"/>
+    <ellipse cx="948" cy="740" rx="170" ry="42" fill="#251f1a" opacity=".18"/>
+    <ellipse cx="948" cy="710" rx="155" ry="36" fill="#786653"/><path d="M840 720l-20 90M1060 720l20 90" stroke="#41372f" stroke-width="13"/>
+  <rect width="1600" height="1000" filter="url(#noise)"/>
+  <path d="M0 0h1600v1000H0z" fill="#829389" opacity=".035"/>
+  </svg>

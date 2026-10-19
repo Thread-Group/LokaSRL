@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# ANTEPRIMA: rimuovere il blocco di indicizzazione dopo approvazione dati, privacy e foto.
